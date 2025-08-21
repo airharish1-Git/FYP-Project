@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Home className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold">RoomFinder</span>
+              <span className="text-xl font-bold">Room&Hostel Finder</span>
             </div>
             <p className="text-muted-foreground mb-4">
               Making accommodation discovery simple, transparent, and secure for
@@ -33,7 +33,7 @@ export function Footer() {
                   href="/search"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Find Rooms
+                  Find Rooms & Hostel
                 </Link>
               </li>
               <li>
@@ -146,7 +146,7 @@ export function Footer() {
 
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-muted-foreground">
-            © 2024 RoomFinder. All rights reserved.
+            © 2024 Room&Hostel Finder. All rights reserved.
           </p>
         </div>
       </div>
